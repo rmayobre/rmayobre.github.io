@@ -1,0 +1,13 @@
+/* 
+	Disable loading buffer symbol if JavaScript is disabled. 
+*/
+
+/* Make sure the loading symbol doesn't appear. */
+body.landing.is-preload:before {
+	display: none;
+}
+
+/* Make sure the loading symbol doesn't display after preloading. */
+body.landing.is-preload:after {
+	display: none;
+}
